@@ -56,7 +56,7 @@ body{
   position: relative;
   color: black;
   text-align: center;
-  font-size: 10vh;
+  font-size: min(10vh,10vw);
 }
 .left {
  background-image: url("img1.jpg");
