@@ -23,6 +23,7 @@ body{
   padding: 2vh 2vw;
   grid-template-rows: auto auto;
 }
+
 #start{
   background-color: black;
   color: #E0E0E0;
@@ -51,12 +52,30 @@ body{
   border-color: red;
   border-width: thick;
 }
+@media only screen and (max-width: 800px)
+{
+  #start{
+    font-size: 2vh;
+  }
+  #restart{
+    font-size: 2vh;
+  }
+}
+@media only screen and (max-height: 800px)
+{
+  #start{
+    font-size: 2vh;
+  }
+  #restart{
+    font-size: 2vh;
+  }
+}
 .button{
   background-color: #E0E0E0;
   position: relative;
   color: black;
   text-align: center;
-  font-size: min(10vh,10vw);
+  font-size: min(7vw,13vh);
 }
 .left {
  background-image: url("img1.jpg");
