@@ -28,7 +28,7 @@ body{
   background-color: black;
   color: #E0E0E0;
   text-align: center;
-  font-size: 5vh;
+  font-size: 2vh;
   font-family:cursive;
 }
 #start:hover{
@@ -42,7 +42,7 @@ body{
   background-color: black;
   color: #E0E0E0;
   text-align: center;
-  font-size: 5vh;
+  font-size: 2vh;
   font-family:cursive;
 }
 #restart:hover{
