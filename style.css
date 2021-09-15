@@ -28,7 +28,7 @@ body{
   background-color: black;
   color: #E0E0E0;
   text-align: center;
-  font-size: 2vh;
+  font-size: 5vh;
   font-family:cursive;
 }
 #start:hover{
@@ -42,7 +42,7 @@ body{
   background-color: black;
   color: #E0E0E0;
   text-align: center;
-  font-size: 2vh;
+  font-size: 5vh;
   font-family:cursive;
 }
 #restart:hover{
@@ -52,7 +52,7 @@ body{
   border-color: red;
   border-width: thick;
 }
-@media only screen and (max-width: 800px)
+@media only screen and (max-width: 1000px)
 {
   #start{
     font-size: 2vh;
@@ -61,7 +61,7 @@ body{
     font-size: 2vh;
   }
 }
-@media only screen and (max-height: 800px)
+@media only screen and (max-height: 1000px)
 {
   #start{
     font-size: 2vh;
